@@ -69,7 +69,7 @@ const { activeNav } = Astro.props
             </a>
           </li>
           <li>
-            <a href="/crypto/" class={`${activeNav === "why" ? "active" : ""}`}>
+            <a href="/why/" class={`${activeNav === "why" ? "active" : ""}`}>
               Crypto
             </a>
           </li>
