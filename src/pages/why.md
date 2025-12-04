@@ -5,13 +5,13 @@ title: "About"
 
 Judit Lázaro Moyano, also known as [Judit Karamazov](https://karamazfolio.xyz), is a Front-end developer, Spanish philologist, and tightrope walker.
 
-If you can't get to find her in some nearby cafeteria, she'll definitely be hiding behind the digital walls of her analysis, apps, or poetry. As video games, literature, and music are her fuel, Judit raised a little pseudo-creature, which she happens to call a blog: [karamaBlog](https://karamablog.xyz), James Bond style. Strange, isn't it? Sometimes, she also sings forgotten songs in the shape of [GitHub repositories](https://github.com/JuditKaramazov).
+
 
 <div>
  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener nofollow" target="_blank"><span class="blue-text">Crypto markets</span></a><span class="trademark"> by TradingView</span></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
   {
   "defaultColumn": "overview",
@@ -21,7 +21,7 @@ If you can't get to find her in some nearby cafeteria, she'll definitely be hidi
   "isTransparent": true,
   "locale": "en",
   "width": "100%",
-  "height": "100%"
+  "height": "550"
 }
   </script>
 </div>
@@ -45,5 +45,5 @@ This space focuses on offering a better insight on the creative process of craft
 Just like the rose, a game is without 'why'; it blooms simply because it blooms. So be it, then.
 
 <div>
-  <img src="/assets/NoWhyGames.png" class="w-1/4 mx-auto" alt="Original No Why Games logo.">
+
 </div>
