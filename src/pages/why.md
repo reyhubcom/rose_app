@@ -1,9 +1,9 @@
 ---
 layout: ../layouts/WhyLayout.astro
-title: "About"
+title: "Cryptocurrency Markets"
 ---
 
-Judit Lázaro Moyano, also known as [Judit Karamazov](https://karamazfolio.xyz), is a Front-end developer, Spanish philologist, and tightrope walker.
+The crypto market is a global, [Rey Hub](https://reyhub.com), The crypto market is a global, decentralized digital marketplace where cryptocurrencies are bought, sold, and traded. It operates through online cryptocurrency exchanges, which act like traditional stock exchanges but for digital assets like Bitcoin and Ethereum.
 
 
 
