@@ -8,24 +8,7 @@ Judit Lázaro Moyano, also known as [Judit Karamazov](https://karamazfolio.xyz),
 If you can't get to find her in some nearby cafeteria, she'll definitely be hiding behind the digital walls of her analysis, apps, or poetry. As video games, literature, and music are her fuel, Judit raised a little pseudo-creature, which she happens to call a blog: [karamaBlog](https://karamablog.xyz), James Bond style. Strange, isn't it? Sometimes, she also sings forgotten songs in the shape of [GitHub repositories](https://github.com/JuditKaramazov).
 
 <div>
- <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener nofollow" target="_blank"><span class="blue-text">Crypto markets</span></a><span class="trademark"> by TradingView</span></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-  {
-  "defaultColumn": "overview",
-  "screener_type": "crypto_mkt",
-  "displayCurrency": "USD",
-  "colorTheme": "dark",
-  "isTransparent": true,
-  "locale": "en",
-  "width": "100%",
-  "height": "100%"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
+  <img src="/assets/karAvatar.png" class="w-1/2 mx-auto" alt="Personal avatar.">
 </div>
 
 In case you want to know more about `No Why Games`, don't forget to follow:
