@@ -1,0 +1,97 @@
+---
+import { getCollection } from "astro:content"
+import Layout from "@layouts/Layout.astro"
+import Header from "@components/Header.astro"
+import Footer from "@components/Footer.astro"
+import LinkButton from "@components/LinkButton.astro"
+import Hr from "@components/Hr.astro"
+import Card from "@components/Card"
+import Socials from "@components/Socials.astro"
+import getSortedPosts from "@utils/getSortedPosts"
+import { SOCIALS } from "@config"
+
+const posts = await getCollection("blog")
+
+const sortedPosts = getSortedPosts(posts)
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured)
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured)
+
+const socialCount = SOCIALS.filter(social => social.active).length
+---
+
+<Layout>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=6931820d2c95394d2a5abfc8&product=sop' async='async'></script>
+  <Header />
+  <main id="main-content" class="flex flex-col items-center justify-center">
+    <section id="hero" class="text-center">
+      <h1>Web3 Crypto Exchange</h1>
+
+      <a
+        target="_blank"
+        href="/rss.xml"
+        class="rss-link"
+        aria-label="rss feed"
+        title="RSS Feed"
+      >
+       <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+      <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=1b1b1e&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=true&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 430px; width: 100%; border: 1"></iframe>
+    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+      </a>
+
+      
+
+      <p>The average time for exchange is about 2 minutes. You can track the crypto swap progress on the exchange page.</p>
+    </section>
+
+ </div>
+  </main>
+
+  <Footer />
+   <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "6055f85b-28a5-4ffa-b3f1-2ec075ae9f81"
+  });
+</script>
+</Layout>
+
+<style>
+  #hero {
+    @apply pb-6 pt-8;
+  }
+
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+
+  #hero .rss-link {
+    @apply mb-6;
+  }
+
+  #hero .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+
+  #hero p {
+    @apply my-2;
+  }
+
+  .social-wrapper {
+    @apply mt-4 flex flex-col flex-row items-center;
+  }
+
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+
+  #featured h2,
+  #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+
+  .all-posts-btn-wrapper {
+    @apply my-8 text-center;
+  }
+</style>
